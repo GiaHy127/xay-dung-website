@@ -1,0 +1,510 @@
+/* =========================
+   CÀI ĐẶT CHUNG
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background: #fff8f5;
+
+    color: #4a2926;
+
+    line-height: 1.6;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background:
+        linear-gradient(
+            135deg,
+            #ff8fa3,
+            #ffb6c5
+        );
+
+    color: white;
+
+    text-align: center;
+
+    padding: 45px 20px;
+}
+
+header h1 {
+    margin: 0;
+
+    font-size: 42px;
+
+    letter-spacing: 2px;
+}
+
+header p {
+    margin-top: 10px;
+
+    font-size: 18px;
+
+    opacity: 0.95;
+}
+
+
+/* =========================
+   THANH MENU
+========================= */
+
+nav {
+    position: sticky;
+
+    top: 0;
+
+    z-index: 100;
+
+    background: white;
+
+    padding: 18px;
+
+    text-align: center;
+
+    box-shadow:
+        0 3px 15px
+        rgba(0, 0, 0, 0.08);
+}
+
+nav a {
+    color: #b8325a;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    margin: 0 12px;
+
+    transition: 0.25s;
+}
+
+nav a:hover {
+    color: #ff6f91;
+}
+
+
+/* =========================
+   MAIN
+========================= */
+
+main {
+    max-width: 1100px;
+
+    margin: auto;
+
+    padding: 20px;
+}
+
+section {
+    padding: 70px 20px;
+}
+
+section h2 {
+    text-align: center;
+
+    color: #c44569;
+
+    font-size: 32px;
+
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   TRANG CHỦ
+========================= */
+
+#trang-chu {
+    text-align: center;
+
+    padding: 100px 20px;
+
+    background:
+        radial-gradient(
+            circle at center,
+            #ffe5eb,
+            #fff8f5
+        );
+
+    border-radius: 25px;
+
+    margin-top: 30px;
+}
+
+#trang-chu h2 {
+    font-size: 40px;
+
+    margin-bottom: 20px;
+}
+
+#trang-chu p {
+    max-width: 650px;
+
+    margin: 15px auto;
+
+    font-size: 18px;
+
+    color: #76504c;
+}
+
+
+/* =========================
+   DANH SÁCH SẢN PHẨM
+========================= */
+
+#san-pham {
+    text-align: center;
+}
+
+#san-pham article {
+    display: inline-block;
+
+    vertical-align: top;
+
+    width: 45%;
+
+    min-height: 260px;
+
+    margin: 15px;
+
+    padding: 30px;
+
+    background: white;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 10px 30px
+        rgba(120, 60, 60, 0.1);
+
+    transition: 0.3s;
+}
+
+#san-pham article:hover {
+    transform:
+        translateY(-8px);
+
+    box-shadow:
+        0 15px 35px
+        rgba(120, 60, 60, 0.18);
+}
+
+#san-pham h3 {
+    color: #b8325a;
+
+    font-size: 22px;
+}
+
+#san-pham p {
+    color: #76504c;
+}
+
+
+/* =========================
+   GIÁ
+========================= */
+
+#san-pham strong {
+    display: block;
+
+    color: #e23e6b;
+
+    font-size: 20px;
+
+    margin: 15px 0;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+button {
+    border: none;
+
+    background: #ff7f9b;
+
+    color: white;
+
+    padding: 12px 22px;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.25s;
+}
+
+button:hover {
+    background: #d94d70;
+
+    transform:
+        translateY(-2px);
+
+    box-shadow:
+        0 6px 15px
+        rgba(217, 77, 112, 0.25);
+}
+
+
+/* =========================
+   GIỚI THIỆU
+========================= */
+
+#gioi-thieu {
+    background: #fff0f3;
+
+    border-radius: 25px;
+
+    margin: 30px 0;
+}
+
+#gioi-thieu p,
+#gioi-thieu ul {
+    max-width: 700px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gioi-thieu h3 {
+    text-align: center;
+
+    color: #b8325a;
+
+    margin-top: 30px;
+}
+
+#gioi-thieu ul {
+    padding-left: 40px;
+}
+
+
+/* =========================
+   FORM ĐẶT HÀNG
+========================= */
+
+#dat-hang {
+    background: white;
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 10px 30px
+        rgba(120, 60, 60, 0.08);
+
+    margin-top: 40px;
+}
+
+form {
+    max-width: 650px;
+
+    margin: auto;
+}
+
+form p {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+
+    margin-bottom: 7px;
+
+    font-weight: bold;
+
+    color: #633b37;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1px solid #e2cfd0;
+
+    border-radius: 10px;
+
+    background: #fffafa;
+
+    color: #4a2926;
+
+    font-size: 16px;
+
+    outline: none;
+
+    transition: 0.2s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #ff7f9b;
+
+    box-shadow:
+        0 0 0 3px
+        rgba(255, 127, 155, 0.15);
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* =========================
+   NÚT ĐẶT HÀNG
+========================= */
+
+form button {
+    width: 100%;
+
+    padding: 15px;
+
+    font-size: 17px;
+
+    background: #c44569;
+}
+
+form button:hover {
+    background: #a83255;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    margin-top: 60px;
+
+    padding: 45px 20px;
+
+    background: #4a2926;
+
+    color: white;
+
+    text-align: center;
+}
+
+footer h3 {
+    color: #ffb6c5;
+
+    font-size: 24px;
+}
+
+footer p {
+    margin: 8px;
+}
+
+
+/* =========================
+   ĐƯỜNG KẺ
+========================= */
+
+hr {
+    border: none;
+
+    height: 1px;
+
+    background: #ead6d4;
+
+    margin: 0;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 700px) {
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav {
+        padding: 15px 5px;
+    }
+
+    nav a {
+        display: inline-block;
+
+        margin: 5px 7px;
+
+        font-size: 14px;
+    }
+
+    section {
+        padding: 50px 10px;
+    }
+
+    #trang-chu h2 {
+        font-size: 30px;
+    }
+
+    #san-pham article {
+        width: 100%;
+
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+}
+
+
+/* =========================
+   HIỆU ỨNG NHẸ
+========================= */
+
+@keyframes floating {
+
+    0% {
+        transform:
+            translateY(0);
+    }
+
+    50% {
+        transform:
+            translateY(-5px);
+    }
+
+    100% {
+        transform:
+            translateY(0);
+    }
+
+}
+
+#trang-chu h2 {
+    animation:
+        floating 3s
+        ease-in-out
+        infinite;
+}
