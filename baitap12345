@@ -39,7 +39,7 @@ for (int i = 0; i < 3; i++) {
 cout << "Data Structures" << endl;
 }</samp>
 <p>Các tài liệu <s>cũ</s> đã được <s>loại bỏ</s> và thay bằng tài liệu mới.</p>
-        <h2 ><b>Bài 4:</b></h2>
+    <h2 ><b>Bài 4:</b></h2>
 <p><b>Công nghệ 4.0</b> đang tạo ra <u>nhiều thay đổi lớn</u> trong cuộc sống hiện đại.</p>
 <p>Trí tuệ nhân tạo (<small>AI</small>) đang phát triển <b>mạnh mẽ</b> và <i>ảnh hưởng trực tiếp</i> đến nhiều lĩnh vực.</p>
 <p>Các tiêu đề báo thường viết bằng <big>chữ lớn</big>, còn ghi chú nhỏ sẽ dùng <small>chữ nhỏ</small>.   </p>
